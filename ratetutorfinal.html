@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/js/star-rating.min.js"></script>
+    <style>
+        .div1 {
+  width: 500px;
+  height: 50px;
+  margin-left: 500px;
+  border: 1px solid darkblue;
+  box-sizing: border-box;
+font-size: 20px;
+background-color:#7DDDF3 ;
+border-radius: 5px 5px 0px 0px;
+
+
+}
+
+.div2 {
+  width: 500px;
+  height: 400px;  
+ 
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-left: 500px;
+  text-align: justify;
+  line-height:300%;
+  border-radius: 0px 0px 5px 5px;
+}
+
+  th{
+    color:blue ;
+  }
+  td{
+    text-align: justify;
+  }
+  #btnSearch,
+#btnClear{
+    display: inline-block;
+    vertical-align: top;
+}
+
+    </style>
+</head>
+<body>
+    
+<div class="div1"><strong>Rate the tutor</strong> </div>
+
+<div class="div2">
+  	<table class="table-rating">
+  <tbody>
+    
+    <tr>
+      <th>Name </th>
+      <td>Guru charan reddy</td>
+    </tr>
+    <tr>
+      <th>Job Title </th>
+      <td>web developer</td>
+    </tr>
+    
+    <tr>
+      <th>Job Description </th>
+      <td> Web development is the work involved in developing a Web site for the Internet or an intranet.</td>
+    </tr>
+    <tr>
+      <th>Rate</th>
+      
+      <td>
+        
+      
+    <input id="input-1" name="input-1" class="rating rating-loading" value="0" data-min="0" data-max="5" data-step="1" data-size="xs">
+</td>
+    </tr>
+   
+   
+  </tbody>
+</table><br>
+<div class="row">
+  <div class="col-sm-12 text-center">
+      <button id="btnSearch" class="btn btn-primary btn-md center-block" Style="width: 100px;" OnClick="btnSearch_Click" >Go to Dashboard</button>
+       
+   </div>
+</div>
+
+</div>
+
+
+
+										
+
+</body>
+</html>
